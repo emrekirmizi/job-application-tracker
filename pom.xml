@@ -5,8 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.jat</groupId>
-    <artifactId>job-view</artifactId>
+    <artifactId>jat-job-service</artifactId>
     <version>0.0.1</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>job-entity</module>
+        <module>job-view</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
