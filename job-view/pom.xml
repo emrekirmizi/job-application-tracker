@@ -11,4 +11,16 @@
 
     <artifactId>job-view</artifactId>
 
+    <properties>
+        <vaadin.version>24.0.2</vaadin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-spring-boot-starter</artifactId>
+            <version>${vaadin.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
