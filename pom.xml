@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>job-entity</module>
+        <module>job-business</module>
         <module>job-view</module>
     </modules>
 
